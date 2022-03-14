@@ -1,41 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        body {
-            margin: 0px;
-        }
-        h1 {
-            background-color: blue;
-            color: white;
-            font-size: 50px;
-            /*Lo entiende como 20 px de distancia a todos los lados "Arriba, Derecha, Abajo, Izquierda"*/
-            margin: 0px 30px 20px 0px;
-            padding: 0px 0px 30px 10px;
-            margin-right: 0px;
-        }
-    </style>
+    <link rel="stylesheet"
+    href="./styles.css">
 </head>
-<body style="background-color:blueviolet;">
+<body>
     <!--Div para Cabecera-->
     <div>
         <h1>Bienvenidos a mi sitio web</h1>
     </div>
     <!--div seccion principal-->
     <div>
-        <div>Menu lateral</div>
-        <div> 
+        <div class="primerDiv">
+            <h2>
+                Menu lateral
+            </h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus magni quo beatae sed inventore cumque consectetur cum deleniti nisi, fugiat.
+            </p>
+        </div>
+        <div class="segundoDiv"> 
             <h3>
                 Contenido
             </h3>
-            <p>
+            <p class="primeraClase">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime itaque nisi expedita, quos eaque neque, suscipit dicta fuga placeat excepturi corporis numquam quibusdam saepe asperiores consequatur fugit hic, repellat recusandae!
             </p>
-            <p>
+            <p id="primerIdentificador">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime itaque nisi expedita, quos eaque neque, suscipit dicta fuga placeat excepturi corporis numquam quibusdam saepe asperiores consequatur fugit hic, repellat recusandae!
             </p>
             <p>
@@ -44,12 +40,9 @@
         </div>
     </div>
     <!--div seccion footer o pie de pagina-->
-    <div>
+    <div class="footer">
         About us
         Telefonos
-        <h1>
-            ejemplo
-        </h1>
     </div>
 </body>
 </html>
