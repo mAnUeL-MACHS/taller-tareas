@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+}
+.cabecera {
+    position: fixed;
+    top: 0;
+    width: 90%;
+    height: 50px;
+    padding: 20px 5%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.main-container {
+    position: relative;
+    top: 75px;
+}
+img {
+    float: left;
+}
+nav {
+    float: right;
+}
+.menu {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
