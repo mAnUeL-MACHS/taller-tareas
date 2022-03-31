@@ -1,9 +1,9 @@
 .slider {
     height: 300px;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: bold;
     text-align: center;
-    background-color: yellow;
+    background-color: orchid;
     display: flex;
     justify-content: center;
     align-items: center;
